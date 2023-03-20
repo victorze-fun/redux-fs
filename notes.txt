@@ -1,0 +1,15 @@
+Action
+{
+  type: USER_ACTION,
+  payload: data
+}
+
+Dispatch actions
+dispatch({ type: USER_ACTION }) to store
+
+Reducer, handle actions
+f(state, action) -> state
+
+Store
+state = {}
+store.reducers = reducer[]
